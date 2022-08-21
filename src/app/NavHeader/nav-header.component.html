@@ -1,0 +1,15 @@
+<header>
+    <div class="nav text-allign-center">
+  
+        <h1 class="headerTitle "><b>Audit Management System</b></h1>
+
+        <img class="username-pic" *ngIf="user.logStatus" src="assets/icon/username.png" height="90%">
+
+        <div class="userInfo" *ngIf="user.logStatus">
+            <h6>{{ user.username | titlecase }}</h6>
+        </div>
+
+        <input class="logout-pic" *ngIf="user.logStatus" type="image" src="assets/icon/logout.png" title="Logout" alt="Logout" width="48" height="48" (click)="logout()">
+        
+    </div>
+</header>

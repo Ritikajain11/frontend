@@ -1,0 +1,73 @@
+header {
+    position: absolute;
+    width : 100%;
+    height : 10vh;
+    left:0%;
+    color: aliceblue;
+    background-color:white;
+    border: 1px solid #2d6b92;
+}
+
+img {
+    border-radius: 50%;
+    max-height: 5vh;
+    margin: 5px;
+    margin-top: 9px;
+}
+
+.headerTitle {
+    color:#269cb8;
+    margin-left: 33.4%;
+    margin-top: 10px;
+}
+
+.userInfo {
+    color: white; 
+    position: absolute;
+    margin-top: 17px;
+    width: 100px;
+    right:20vh;
+    padding: 2px;
+    text-align: center;
+}
+
+h6{
+    margin-left: 10%;
+    color: #2d6b92;
+}
+
+.username-pic{
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    top: 3px;
+    right:32vh;
+}
+
+.logout-pic{
+    position: absolute;
+    right: 25px;
+    width: 30px;
+    height: 30px;
+    top: 12px;
+}
+
+.gotopages{
+    position: absolute;
+    top: 5px;
+    right:52vh;
+}
+#navbarNav{
+    color: white;
+    position: absolute;
+    padding-top: 1vh;
+    left: 2vw;
+    z-index:2;
+    border-color: white;
+    padding-left: 15px;
+}
+
+.nav-item{
+    background-color: black;
+    color: white;
+}

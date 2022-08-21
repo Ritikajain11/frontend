@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #2d6b92;
+}
+.result-card{
+    top:150px;
+    background-color: black;
+    color:#ffffffb2
+}
+
+.status-btn{
+    background-color: #ff0000;
+    width: 100px;
+    height: 25px;
+    border-radius: 0%;
+}
+
+.dark-table{
+    background-color: black;
+}
+
+td, th{
+    text-align: center;
+    background-color: black;
+    color:#ffffffb2;
+
+}
+
+.endbtn{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.tsev{
+    font-weight: 500;
+}
+
+.dotdots{
+    position: absolute;
+    top:15vh;
+    left:37vw;
+}
